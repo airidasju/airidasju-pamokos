@@ -1,0 +1,27 @@
+.gray {
+  color: rgb(155, 155, 155);
+}
+
+.input-field {
+  display: inline-block;
+  position: relative;
+}
+
+.input-field label {
+  position: absolute;
+  top: 20px;
+}
+
+.address-input {
+  display: inline-block;
+  position: relative;
+}
+
+.address-input label {
+  position: absolute;
+  top: 20px;
+}
+
+.div {
+  margin-bottom: 40px;
+}
