@@ -18,7 +18,7 @@
     <form class="content">
       <div class="div-spacing">
         <b>Student name</b><br />
-        <div class="inline-relative">
+        <div class="inline-relative" style="margin-top: 4px">
           <input class="smaller-width" type="text" id="fname" name="fname" />
           <br />
           <label class="gray" for="fname">First name</label>
@@ -36,8 +36,9 @@
       </div>
       <div class="div-spacing">
         <b>Birthdate</b><br />
-        <div class="inline-relative">
+        <div class="inline-relative" style="margin-top: 4px">
           <select class="bday-width" id="month">
+            <option style="display: none"></option>
             <option value="january">January</option>
             <option value="february">February</option>
             <option value="march">March</option>
@@ -55,6 +56,7 @@
         </div>
         <div class="inline-relative">
           <select class="bday-width" id="day">
+            <option style="display: none"></option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -91,6 +93,7 @@
         </div>
         <div class="inline-relative">
           <select class="bday-width" id="year">
+            <option style="display: none"></option>
             <option value="1940">1940</option>
             <option value="1941">1941</option>
             <option value="1942">1942</option>
@@ -179,7 +182,11 @@
         <div class="realtive-top" style="margin-inline: 12px">
           <label for="gender"><b>Gender</b></label
           ><br />
-          <select style="width: 169px" id="gender">
+          <select
+            style="margin-top: 3px; width: 173px; height: 32px"
+            id="gender"
+          >
+            <option value="" disabled selected>Please Select</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
           </select>
@@ -187,7 +194,7 @@
       </div>
       <div class="div-spacing">
         <b>Address</b><br />
-        <div class="block-style" style="margin-bottom: 10px">
+        <div class="block-style" style="margin-bottom: 10px; margin-top: 4px">
           <input
             class="longest-width"
             type="text"
@@ -236,6 +243,7 @@
           <b>Student E-mail</b><br />
           <input
             class="medium-width"
+            style="margin-top: 4px"
             type="text"
             id="email"
             name="email"
@@ -248,6 +256,7 @@
           ><br />
           <input
             class="medium-width"
+            style="margin-top: 4px"
             type="text"
             id="mobile"
             name="mobile"
@@ -261,6 +270,7 @@
           ><br />
           <input
             class="medium-width"
+            style="margin-top: 4px"
             type="text"
             id="phonenum"
             name="phonenum"
@@ -272,6 +282,7 @@
           ><br />
           <input
             class="medium-width"
+            style="margin-top: 4px"
             type="text"
             id="worknum"
             name="worknum"
@@ -283,13 +294,22 @@
         <div>
           <label for="company"><b>Company</b></label
           ><br />
-          <input class="medium-width" type="text" id="company" name="company" />
+          <input
+            class="medium-width"
+            style="margin-top: 4px"
+            type="text"
+            id="company"
+            name="company"
+          />
         </div>
       </div>
       <div class="div-spacing">
         <label for="courses"><b>Courses</b></label
         ><br />
-        <select class="medium-width" id="courses">
+        <select
+          style="margin-top: 4px; width: 173px; height: 32px"
+          id="courses"
+        >
           <option value="" disabled selected>Please Select</option>
           <option value="html">HTML</option>
           <option value="js">JS</option>
@@ -300,7 +320,7 @@
         <label for="comment"><b>Additional Comments</b></label
         ><br />
         <input
-          style="height: 100px; width: 350px"
+          style="height: 100px; width: 350px; margin-top: 4px"
           type="text"
           id="comment"
           name="comment"
