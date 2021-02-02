@@ -1,27 +1,59 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
 .gray {
   color: rgb(155, 155, 155);
 }
 
-.input-field {
+.div-spacing {
+  margin-bottom: 20px;
+}
+
+.spacing {
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+.realtive-top {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+}
+
+.block-style {
+  display: block;
+}
+
+.inline-relative {
   display: inline-block;
   position: relative;
 }
 
-.input-field label {
-  position: absolute;
-  top: 20px;
+.smaller-width {
+  width: 108px;
 }
 
-.address-input {
-  display: inline-block;
-  position: relative;
+.bday-width {
+  width: 55px;
 }
 
-.address-input label {
-  position: absolute;
-  top: 20px;
+.medium-width {
+  width: 166px;
 }
 
-.div {
-  margin-bottom: 40px;
+.longest-width {
+  width: 350px;
 }
